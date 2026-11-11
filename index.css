@@ -124,3 +124,21 @@ h1, h2, h3 {
     font-size: 17px;
     cursor: pointer;
 }
+
+.botao:hover {
+    background-color: var(--caixa-dagua);
+}
+
+.secao {
+    margin-top: 96px;
+}
+
+.titulo-secao {
+    font-size: 64px;
+    margin-bottom: 32px;
+}
+
+.cards {
+    display: flex;
+}
+
