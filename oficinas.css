@@ -1,10 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root {
-    --concreto: #E2DFD8;
-    --concreto-escuro: #CBC7BE;
-    --tinta: #0F1E3D;
-    --caixa-dagua: #1F5FBF;
-    --fita: #F3C623;
-    --branco: #FFFFFF;
+    --concreto:#E2DFD8;
+    --concreto-escuro:#CBC7BE;
+    --tinta:#0F1E3D;
+    --caixa-dagua:#1F5FBF;
+    --fita:#F3C623;
+    --branco:#FFFFFF;
     --fonte-cartaz:"Big Shoulders", "Arial Narrow", sans-serif;
     --fonte-texto:"Archivo", Arial, sans-serif;
 }
@@ -12,13 +18,13 @@
 body {
     background-color: var(--concreto);
     color: var(--tinta);
-    font: var(--fonte-texto);
+    font-family: var(--fonte-texto);
     font-size: 17px;
     line-height: 1.55;
 }
 
 a {
-    color: inherit;
+    color:inherit
 }
 
 h1, h2, h3 {
@@ -41,7 +47,7 @@ h1, h2, h3 {
 }
 
 .logo {
-    font: var(--fonte-cartaz);
+    font-family: var(--fonte-cartaz);
     font-size: 34px;
     font-weight: 900;
     text-decoration: none;
@@ -65,7 +71,23 @@ h1, h2, h3 {
 
 .menu a.atual {
     border-bottom-color: var(--fita);
-} 
+}
+
+.foto {
+    background-color: var(--concreto-escuro);
+}
+
+.foto-azul {
+    background-color: var(--caixa-dagua);
+}
+
+.foto-amarela {
+    background-color: var(--fita);
+}
+
+.foto-tinta {
+    background-color: var(--tinta);
+}
 
 .rodape {
     margin-top: 120px;
