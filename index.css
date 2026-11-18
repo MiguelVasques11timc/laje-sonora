@@ -5,12 +5,12 @@
 }
 
 :root {
-    --concreto: #E2DFD8;
-    --concreto-escuro: #CBC7BE;
-    --tinta: #0F1E3D;
-    --caixa-dagua: #1F5FBF;
-    --fita: #F3C623;
-    --branco: #FFFFFF;
+    --concreto:#E2DFD8;
+    --concreto-escuro:#CBC7BE;
+    --tinta:#0F1E3D;
+    --caixa-dagua:#1F5FBF;
+    --fita:#F3C623;
+    --branco:#FFFFFF;
     --fonte-cartaz:"Big Shoulders", "Arial Narrow", sans-serif;
     --fonte-texto:"Archivo", Arial, sans-serif;
 }
@@ -18,13 +18,13 @@
 body {
     background-color: var(--concreto);
     color: var(--tinta);
-    font: var(--fonte-texto);
+    font-family: var(--fonte-texto);
     font-size: 17px;
     line-height: 1.55;
 }
 
 a {
-    color: inherit;
+    color:inherit
 }
 
 h1, h2, h3 {
@@ -47,7 +47,7 @@ h1, h2, h3 {
 }
 
 .logo {
-    font: var(--fonte-cartaz);
+    font-family: var(--fonte-cartaz);
     font-size: 34px;
     font-weight: 900;
     text-decoration: none;
@@ -71,7 +71,7 @@ h1, h2, h3 {
 
 .menu a.atual {
     border-bottom-color: var(--fita);
-} 
+}
 
 .cartazes {
     margin-top: 16px;
@@ -135,13 +135,13 @@ h1, h2, h3 {
 
 .titulo-secao {
     font-size: 64px;
-    margin-bottom: 32px;
+    margin-bottom: 32px;    
 }
 
 .cards {
     display: flex;
-    display: wrap;
-    gap: 24px;
+    flex-wrap: wrap;
+    gap: 24px;  
 }
 
 .card {
@@ -234,4 +234,19 @@ h1, h2, h3 {
     font-size: 28px;
     color: var(--fita);
     margin-bottom: 12px;
+}
+
+.big-shoulders-bigShould {
+    font-family: "Big Shoulders", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:800;
+    font-style: normal;
+}
+  
+.archivo-arch {
+    font-family: "Archivo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 345;
+    font-style: normal;
+    font-variation-settings: "width" 100;
 }
